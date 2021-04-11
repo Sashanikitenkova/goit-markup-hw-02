@@ -1,0 +1,9 @@
+
+  .social-contact .contact {
+    color: #757575;
+  }
+
+  .social-contact .contact:hover,
+  .social-contact .contact:focus {
+    color: #2196F3;
+  }
