@@ -32,7 +32,7 @@ ul {
 .logo {
     color: var(--logo-color);
     font-family: raleway, sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;   
@@ -42,6 +42,11 @@ ul {
 /*контакты*/
   .social-contact .contact {
     color: var(--primary-text-color);
+    font-style: normal;
+    Font-size: 14px;
+    Line-height: 1.7;
+    font-weight: 400;
+    Letter-spacing: 3%;
     text-decoration: none;
   }
   .social-contact .contact:hover,
@@ -93,7 +98,9 @@ ul {
     border-radius: 4px;
   }
 
-
+  .advantages-heading {
+    display: none;
+  }
 
   .advantages-company { 
     font-weight: 400;
@@ -145,6 +152,7 @@ ul {
    }
 
    .web {
+     font-weight: 700;
      color: var(--accent-color);
    }
 
@@ -175,7 +183,8 @@ ul {
      cursor: pointer;
      font-family: inherit;
  }
-  .primary-button .button:hover{
+  .primary-button .button:hover,
+  .primary-button .button:focus{
     color: var(--white-color);
     background-color: var(--accent-color);
  }
